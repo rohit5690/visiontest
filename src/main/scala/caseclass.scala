@@ -6,5 +6,6 @@ object caseclass {
     val df = spark.read.option("interschema","true").option("header","true").parquet("/home/rohit/Downloads/parquet") toDF
 
     df.show()
+    //samarth Push
   }
 }
